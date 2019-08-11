@@ -1,0 +1,365 @@
+@font-face {
+    font-family: "BebasNeue"; 
+    src: url("fonts/BebasNeue.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: bold; 
+    } 
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("fonts/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+
+body {
+    background: #282828;
+    width: 1280px;
+    height: 1850px;
+    vertical-align: top;
+    margin-left: 300px;
+}
+
+h1 {
+    font-family: 'BebasNeue', Helvetica, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #afafaf;
+}
+
+p {
+    font-family: 'OpenSans', sans-serif;
+}
+
+.body {
+    background: url(img/back.png);
+    width: 1280px;
+}
+
+.header {
+    background: white;
+    width: 100%;
+    height: 80px;
+    margin-right: 127px;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-left: 127px;
+}
+
+.search {
+    width: 375px;
+    height: 35px;
+    margin-left: 200px;
+    border: 1px solid #e1e1e1;
+    vertical-align: top;
+    margin-top: 25px;
+    background: url(img/shape.png) no-repeat 97% 50%;
+}
+
+.cart {
+    margin-left: 150px;
+    margin-bottom: 5px;
+}
+
+.top {
+    height: 40px;
+    width: 100%;
+    background: #4ccfc1;
+}
+
+.panel {
+    display: inline-block;
+    height: 20px;
+    margin-top: 10px;
+    font-family: 'BebasNeue', Helvetica, sans-serif;
+    font-size: 21px;
+    color: white;
+    text-align: justify;
+    padding-left: 27px;
+    padding-right: 27px;
+    border-left: 2px solid white;
+}
+
+.panel:first-child {
+    margin-left: 127px;
+    border: none;
+}
+
+.rec {
+    width: 100%;
+    height: 445px;
+}
+
+.short {
+    display: block;
+    height: 325px;
+    width: 285px;
+    padding-top: 65px;
+    padding-left: 220px;
+    padding-bottom: 55px;
+    float: left;
+}
+
+.crew {
+    float: left;
+    color: white;
+    font-size: 61px;
+    line-height: 55px;
+    padding-left: 100px;
+    padding-top: 75px;
+}
+
+.cotton {
+    width: 400px;
+    height: 75px;
+    float: left;
+    padding-left: 100px;
+    color: white;
+    font-family: "OpenSans";
+    padding-top: 20px;
+    line-height: 25px;
+    padding-right: 100px;
+}
+
+.shop{
+    display: block;
+    color: white;
+    background: url(img/back.png);
+    border: 3px solid white;
+    padding: 5px 20px;
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 27px;
+    border-radius: 10px 10px;
+    float: left;
+    margin-left: 100px;
+    margin-top: 25px;
+}
+
+.dots {
+    display: block;
+    float: left;
+    margin-top: -45px;
+    margin-left: 610px;
+}
+
+.d {
+    padding-left: 10px;
+}
+
+.d:first-child {
+    padding: 0;
+}
+
+.slide {
+    background: white;
+    height: 190px;
+    width: 100%;
+}
+
+.arr {
+    margin: 50px 0 0 30px;
+    float: left;
+}
+
+.carts {
+    margin: 20px 0 0  70px;
+}
+
+.carts * {
+    float: left
+}
+
+.brand {
+    width: 70px;
+    margin: 50px 20px 0 0;
+}
+
+.cartf {
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #e7e7e7;
+    width: 335px;
+    height: 190px;
+}
+
+.cartf:first-child img {
+    margin: 25px -10px 0 20px;
+}
+
+.cartf img {
+    margin: 25px 50px 0 20px;
+}
+
+.cartf:last-child img {
+    border: none;
+    margin: 25px 80px 0 40px;
+}
+
+.cartf:last-child {
+    border: none;
+}
+
+.cartf:first-child {
+    margin-left: 50px;
+}
+
+.shope {
+    display: block;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 3px 3px;
+    font-family: 'Bebasneue', sans-serif;
+    color: white;
+    margin-top: 15px;
+    font-size: 19px;
+    background: #3cc395;
+}
+
+.lef {
+    float: right;
+    margin: 50px 30px 0 0;
+}
+
+.feat {
+    display: inline-block;
+    width: 100%;
+    height: 65px;
+}
+
+.feat h1 {
+    color: white;
+    font-size: 31px;
+    margin-left: 185px;
+    padding-top: 15px;
+}
+
+.products {
+    width: 100%;
+    height: 650px;
+    background-color: white;
+    padding-top: 50px;
+}
+
+.product {
+    display: block;
+    float: left;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #e4e4e4;
+    border-bottom: 5px solid #3cc395;
+    padding: 25px 0 0 40px;
+    box-shadow: 0 0 2px #e4e4e4;
+}
+
+.product * {
+    float: left;
+}
+
+.product:first-child, .product:nth-of-type(4) {
+    margin-left: 190px;
+}
+
+.product {
+    margin-left: 50px;
+}
+
+.product:first-child img {
+    width: 190px;
+}
+
+.product h1 {
+    font-size: 27px;
+    padding-left: 40px;
+}
+
+.product p {
+    font-family: 'BebasNeue', sans-serif;
+    font-size: 27px;
+    color: #afafaf;
+    padding: 7px 0 0 40px;
+}
+
+.product:nth-child(2) p {
+    padding: 7px 0 0 45px;
+}
+
+.product:nth-child(2) img, .product:nth-child(3) img{
+    padding-left: 40px;
+}
+
+.product:nth-child(4) img, .product:nth-child(5) img {
+    width: 150px;
+    height: 120px;
+    padding-left: 25px;
+}
+
+.product:nth-child(6) img {
+    padding-left: 60px;
+}
+
+.product:nth-child(2) h1, .product:nth-child(3) h1, .product:nth-child(4) h1, .product:nth-child(5) h1, .product:nth-child(6) h1 {
+    padding-top: 10px;
+}
+
+.product:nth-child(4), .product:nth-child(5), .product:nth-child(6) {
+    margin-top: 50px;
+}
+
+.product:nth-child(5) h1 {
+    padding-left: 30px;
+}
+
+.buyn {
+    display: block;
+    border: none;
+    border-radius: 3px 3px;
+    font-family: 'Bebasneue', sans-serif;
+    color: white;
+    font-size: 20px;
+    background: #3cc395;
+    padding: 5px 10px;
+    margin: 6px 0 0 10px;
+}
+
+.end {
+    height: 335px;
+    background: #3cc3b5;
+}
+
+.end p {
+    width: 130px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.end h1 {
+    color: white;
+    font-size: 27px;
+    padding-bottom: 10px;
+}
+
+.bottom {
+    width: 130px;
+    padding-left: 140px;
+    padding-top: 30px;
+    float: left;
+}
+
+.bottom:first-child {
+    padding-left: 180px;
+}
+
+.line {
+    height: 50px;
+    background: #2da89b;
+}
